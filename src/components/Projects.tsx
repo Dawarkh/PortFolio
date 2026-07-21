@@ -45,7 +45,7 @@ const academicProjects = [
     title: "Tata Motors Analysis",
     category: "Credit & Equity Diagnostic",
     description: "Analysed 5 years of financials — built Excel ratio & DuPont models to evaluate ROE drivers and credit profile. Surfaced capital-efficiency gains.",
-    image: "/tata_motors.jpg",
+    image: "/tata_motors.png",
     tags: ["Excel Modelling", "Financial Analysis", "Power BI"],
   },
   {
