@@ -6,34 +6,9 @@ import { motion, useInView, Variants } from "framer-motion";
 
 const techStack = [
   {
-    name: "Python",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
-    category: "Programming",
-  },
-  {
-    name: "SQL",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
-    category: "Database",
-  },
-  {
-    name: "React",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-    category: "Frontend",
-  },
-  {
-    name: "Next.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg",
-    category: "Framework",
-  },
-  {
-    name: "TypeScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-    category: "Language",
-  },
-  {
-    name: "JavaScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-    category: "Language",
+    name: "Power BI",
+    icon: "/icons/powerbi.svg",
+    category: "Visualization",
   },
   {
     name: "Tableau",
@@ -41,29 +16,39 @@ const techStack = [
     category: "Visualization",
   },
   {
-    name: "R",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg",
-    category: "Analytics",
+    name: "SQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+    category: "Database & Analytics",
   },
   {
-    name: "Git",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
-    category: "Version Control",
-  },
-  {
-    name: "Excel",
-    icon: "/icons/excel.svg",
-    category: "Spreadsheets",
-  },
-  {
-    name: "Power BI",
-    icon: "/icons/powerbi.svg",
-    category: "Visualization",
+    name: "Python",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    category: "Programming & Data",
   },
   {
     name: "Pandas",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
-    category: "Data Science",
+    category: "Data Analysis",
+  },
+  {
+    name: "NumPy",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+    category: "Numerical Computing",
+  },
+  {
+    name: "Financial Modeling",
+    icon: "/icons/excel.svg",
+    category: "DCF, LBO & Forecasting",
+  },
+  {
+    name: "Valuation",
+    icon: "/icons/excel.svg",
+    category: "Ratio & Capital Structure",
+  },
+  {
+    name: "MS Office",
+    icon: "/icons/excel.svg",
+    category: "Excel, Word, PPT, SharePoint",
   },
 ];
 
@@ -107,10 +92,10 @@ const TechStack = () => {
           {/* Header */}
           <div className="mb-16">
             <h2 className="text-4xl md:text-[60px] font-bold text-white tracking-tighter mb-4">
-              Core <span className="text-[#aa42ff]">Stack</span>
+              Key <span className="text-[#aa42ff]">Skills</span>
             </h2>
             <p className="text-gray-400 font-light text-sm md:text-base max-w-md">
-              Tools and technologies I use to turn data into decisions.
+              Financial modeling, valuation frameworks, data analytics tools, and business suite proficiency.
             </p>
           </div>
 

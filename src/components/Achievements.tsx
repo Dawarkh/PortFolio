@@ -63,11 +63,10 @@ export default function Achievements() {
             className="flex flex-col border-t border-[#363636]"
           >
             <HoverText text="2nd Position" subtitle="Elysium Vogue (Ramp Walk)" />
-            <HoverText text="$100K → $240K" subtitle="Simulated Equity & FX Portfolio Management" />
+            <HoverText text="$100K → $240K" subtitle="Simulated Equity & FX Portfolio Management (+140% Return)" />
             <HoverText text="Marketing Club Member" subtitle="GLIM Gurgaon (2025)" />
-            <HoverText text="Event Coordinator" subtitle="VIVANTE '23 (50+ colleges)" />
-            <HoverText text="Workshop Leader" subtitle="3 Literacy & Conservation Workshops (80+ Trained)" />
-            <HoverText text="Certifications" subtitle="Microsoft Power BI, Financial Modeling, Decision Analytics" />
+            <HoverText text="NGO & Leadership Work" subtitle="Route & Resource Optimization (22% Faster Execution)" />
+            <HoverText text="Workshop Leader" subtitle="3 Literacy & Energy Conservation Workshops (80+ Trained)" />
           </motion.div>
         </div>
 
