@@ -39,14 +39,15 @@ export default function Experience() {
             <div className="flex flex-col md:flex-row justify-between w-full">
               <div className="flex w-full md:w-[48%] justify-between gap-4 md:gap-8 flex-col md:flex-row mb-4 md:mb-0">
                 <div>
-                  <div className="flex items-center gap-3 mb-1">
-                    <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide">
-                      Corporate Finance Intern
-                    </h4>
-                  </div>
-                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide">
-                    Altaf Trading Agencies <span className="text-xs text-gray-400 block sm:inline sm:ml-2">(Apr 2026 – Jun 2026)</span>
+                  <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide mb-1">
+                    Corporate Finance Intern
+                  </h4>
+                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide mb-1">
+                    Altaf Trading Agencies
                   </h5>
+                  <p className="text-xs text-gray-400 font-light tracking-wide">
+                    Apr 2026 – Jun 2026
+                  </p>
                 </div>
                 <h3 className="text-3xl md:text-[40px] font-medium text-white leading-none">
                   2026
@@ -79,14 +80,15 @@ export default function Experience() {
             <div className="flex flex-col md:flex-row justify-between w-full">
               <div className="flex w-full md:w-[48%] justify-between gap-4 md:gap-8 flex-col md:flex-row mb-4 md:mb-0">
                 <div>
-                  <div className="flex items-center gap-3 mb-1">
-                    <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide">
-                      Market Researcher
-                    </h4>
-                  </div>
-                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide">
-                    Century Plyboards <span className="text-xs text-gray-400 block sm:inline sm:ml-2">(Jun 2025 – Jul 2025)</span>
+                  <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide mb-1">
+                    Market Researcher
+                  </h4>
+                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide mb-1">
+                    Century Plyboards
                   </h5>
+                  <p className="text-xs text-gray-400 font-light tracking-wide">
+                    Jun 2025 – Jul 2025 (2 months)
+                  </p>
                 </div>
                 <h3 className="text-3xl md:text-[40px] font-medium text-white leading-none">
                   2025
@@ -122,9 +124,12 @@ export default function Experience() {
                   <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide mb-1">
                     PGDM Candidate
                   </h4>
-                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide">
+                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide mb-1">
                     Great Lakes Institute
                   </h5>
+                  <p className="text-xs text-gray-400 font-light tracking-wide">
+                    2024 – 2026
+                  </p>
                 </div>
                 <h3 className="text-3xl md:text-[40px] font-medium text-white leading-none">
                   2025
@@ -158,9 +163,12 @@ export default function Experience() {
                   <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide mb-1">
                     NGO Volunteer & Project Leader
                   </h4>
-                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide">
+                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide mb-1">
                     NGO Work
                   </h5>
+                  <p className="text-xs text-gray-400 font-light tracking-wide">
+                    2023
+                  </p>
                 </div>
                 <h3 className="text-3xl md:text-[40px] font-medium text-white leading-none">
                   2023
