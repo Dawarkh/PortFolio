@@ -62,11 +62,12 @@ export default function Achievements() {
             transition={{ duration: 0.8, staggerChildren: 0.1 }}
             className="flex flex-col border-t border-[#363636]"
           >
-            <HoverText text="Gold Medalist" subtitle="B.B.A (Hons) Academic Excellence" />
-            <HoverText text="Finalist" subtitle="HULT PRIZE 2023" />
-            <HoverText text="Top 15" subtitle="Harvard Project for Asian & International Relations (HPAIR)" />
-            <HoverText text="General Secretary" subtitle="Literary Club" />
+            <HoverText text="2nd Position" subtitle="Elysium Vogue (Ramp Walk)" />
+            <HoverText text="$100K → $240K" subtitle="Simulated Equity & FX Portfolio Management" />
+            <HoverText text="Marketing Club Member" subtitle="GLIM Gurgaon (2025)" />
             <HoverText text="Event Coordinator" subtitle="VIVANTE '23 (50+ colleges)" />
+            <HoverText text="Workshop Leader" subtitle="3 Literacy & Conservation Workshops (80+ Trained)" />
+            <HoverText text="Certifications" subtitle="Microsoft Power BI, Financial Modeling, Decision Analytics" />
           </motion.div>
         </div>
 

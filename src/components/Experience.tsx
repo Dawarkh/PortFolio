@@ -125,10 +125,10 @@ export default function Experience() {
                     PGDM Candidate
                   </h4>
                   <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide mb-1">
-                    Great Lakes Institute
+                    Great Lakes Institute of Management, Gurgaon
                   </h5>
                   <p className="text-xs text-gray-400 font-light tracking-wide">
-                    2024 – 2026
+                    2025 – 2027 • CGPA: 3.0/4.0
                   </p>
                 </div>
                 <h3 className="text-3xl md:text-[40px] font-medium text-white leading-none">
@@ -148,14 +148,53 @@ export default function Experience() {
                 {/* Expandable Hover Details */}
                 <div className="max-h-0 opacity-0 group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-500 ease-out overflow-hidden pt-2 border-t border-white/10">
                   <p className="text-gray-300 font-light text-xs md:text-sm leading-relaxed">
-                    Focused on Finance and Analytics with strong foundations in financial analysis, valuation, and data-driven decision-making. Experienced in analyzing capital structures, profitability drivers, and investment risks through analytical tools.
+                    Focused on Finance and Analytics with strong foundations in financial analysis, valuation, and data-driven decision-making. Active Member of Marketing Club at GLIM Gurgaon.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Experience Item 4: 2023 NGO Work */}
+          {/* Experience Item 4: 2024 B.E Graduate */}
+          <div className="group relative w-full mb-10 p-6 md:p-8 rounded-2xl bg-white/[0.02] hover:bg-white/[0.06] border border-white/10 hover:border-[#aa42ff]/50 transition-all duration-500 backdrop-blur-xl shadow-lg cursor-pointer">
+            <div className="flex flex-col md:flex-row justify-between w-full">
+              <div className="flex w-full md:w-[48%] justify-between gap-4 md:gap-8 flex-col md:flex-row mb-4 md:mb-0">
+                <div>
+                  <h4 className="text-2xl md:text-[28px] leading-tight font-medium text-white tracking-wide mb-1">
+                    B. E (Bachelor of Engineering)
+                  </h4>
+                  <h5 className="text-base md:text-lg font-normal text-[#aa42ff] tracking-wide mb-1">
+                    M. S. Ramaiah Institute of Technology, Bangalore
+                  </h5>
+                  <p className="text-xs text-gray-400 font-light tracking-wide">
+                    2020 – 2024 • CGPA: 8.91/10
+                  </p>
+                </div>
+                <h3 className="text-3xl md:text-[40px] font-medium text-white leading-none">
+                  2024
+                </h3>
+              </div>
+              
+              <div className="w-full md:w-[48%] flex flex-col justify-center">
+                <div className="flex items-center gap-2 text-xs text-gray-400 font-medium tracking-wider uppercase mb-2 group-hover:text-[#aa42ff] transition-colors">
+                  <span>Overview</span>
+                  <span className="text-[10px] group-hover:translate-y-0.5 transition-transform">↓ Hover for details</span>
+                </div>
+                <p className="text-gray-300 font-light text-xs md:text-sm leading-relaxed mb-2">
+                  Graduated with Distinction (CGPA 8.91/10) with strong analytical and quantitative foundations.
+                </p>
+
+                {/* Expandable Hover Details */}
+                <div className="max-h-0 opacity-0 group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-500 ease-out overflow-hidden pt-2 border-t border-white/10">
+                  <p className="text-gray-300 font-light text-xs md:text-sm leading-relaxed">
+                    Completed 4-year engineering degree with 8.91/10 CGPA. Active in campus leadership, event organization, and cultural activities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Experience Item 5: 2023 NGO Work */}
           <div className="group relative w-full mb-10 p-6 md:p-8 rounded-2xl bg-white/[0.02] hover:bg-white/[0.06] border border-white/10 hover:border-[#aa42ff]/50 transition-all duration-500 backdrop-blur-xl shadow-lg cursor-pointer">
             <div className="flex flex-col md:flex-row justify-between w-full">
               <div className="flex w-full md:w-[48%] justify-between gap-4 md:gap-8 flex-col md:flex-row mb-4 md:mb-0">
